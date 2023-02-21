@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+hander {
+background-color: bisque;
+  
+  height: 100px;
+  display: grid;
+}
+
+body {
+    background: linear-gradient(45deg, #d9cdf7 64%, rgb(209, 92, 174) 150%);
+}
+
+
+
+
+main{
+  background: #b0a6c9;
+  height:170px;
+  width: 372px;
+}
+
