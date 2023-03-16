@@ -1,57 +1,117 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="animated">
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="/styles/index.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap"
       rel="stylesheet"
     />
-
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product sofa</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <div id="app">
-      <div id="product-image">
-        <button id="btn-360" onclick="toggle()">
-          <img
-            src="./svg/360.svg"
-            alt="clique nesse botao para animar o sofa"
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img src="images/Ikea_logo.svg.png" width="125px" height="83px" alt="logo">
+        </div>
+        
+        <h3>
+          <a href="/views/src/login.html" class="login">Fazer Login</a>
+        </h3>
+
+        <div class="svg">
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewBox="0 0 24 24"
+          width="24px"
+          fill="#000000"
+          >
+          <path d="M0 0h24v24H0z" fill="none" />
+          <path
+          d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
           />
-        </button>
-        <button id="btn-close" onclick="toggle()">
-          <img src="./svg/close.svg" alt="parar de animar o sofa" />
-        </button>
-
-        <img id="static" src="./images/sofa.jpg" alt="sofa" />
-        <img id="animated" src="./images/sofa.gif" alt="sofa animado" />
+        </svg>
       </div>
+    </header>
+    
+    <main>
+      <div class="wrapper-img">
+        <figcaption>
+          <img src="images/sofa.jpg" alt="" />
+          <h2>Sofá Margot II</h2>
+          <br />
+          <h2>Sofá de 3 lugares com chaise curto</h2>
+          <h3>R$ 4.000:-</h3>
+          <br />
+          <h4>
+            Pague em prestações a partir de reais 170/mês (24 meses; valor
+            total SEK 4.000; juros efetivos 0%) com o Ikano Bank
+          </h4>
+          <br />
+          
+          <h4>Estofamento/capa lavável</h4>
+          <br />
+         
+        </figcaption>
+      </div>
+      
+      <div class="wrapper-item">
+        <h2>Forma de pagamentos</h2>
 
-      <div id="product-details">
-        <h4>CÓDIGO: 42404</h4>
-        <h1>Sofá Margot II - Rosé</h1>
-        <select name="" id="">
-        <button><option value="">mudar cor </option></button>
-        <option value="">vermelho</option>
-        <option value="">marrom</option>
-        <option value="">verde</option>
-        <option value="">preto</option>
-        <option value="">creme</option>
-      </select>
-        <p>R$ 4.000</p>
-     <a href="/page-login..html"><button>ADICIONAR À CESTA</button>
-     </div>
+        <div class="item-item-1">
+          <img src="images/download.png" width="130px" height="70px" alt="" />
+        </div>
+        
+        <div class="item item-2">
+          <img
+          src="images/numero-verde-mastercard-e-servizio-assistenza-clienti.jpg"
+          width="130px"
+          height="70px"
+          alt=""
+          />
+        </div>
+        
+        <div class="item item-2">
+          <img
+          src="images/Swish_Logo_Secondary_Light-BG_P3.png"
+          width="200px"
+          height="70px"
+          alt=""
+          />
+        </div>
+        
+        <div class="item item-2">
+          <img
+              src="images/download (1).png"
+              width="200px"
+              height="70px"
+              alt=""
+            />
+          </div>
+
+          <div class="item item-2">
+            <img src="images/Visa-terminates-agreement-with-FTX.webp"
+            width="140px" height="70px" alt= >
+          </div>
+
+          <div class="item item-2">
+            <img
+              src="images/american_express.jpg"
+              width="140px"
+              height="70px"
+              alt=""
+            />
+          </div>
+        </div>
+      </main>
     </div>
-
-    <script>
-      function toggle() {
-        document.documentElement.classList.toggle("animated")
-      }
-    </script>
   </body>
 </html>

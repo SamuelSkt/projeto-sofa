@@ -1,0 +1,22 @@
+{
+  "name": "projeto-sofa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelSkt/projeto-sofa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelSkt/projeto-sofa/issues"
+  },
+  "homepage": "https://github.com/SamuelSkt/projeto-sofa#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1"
+  }
+}
